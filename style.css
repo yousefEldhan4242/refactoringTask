@@ -1,0 +1,87 @@
+/* 1st Way */
+
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+} */
+
+/* 2nd Way */
+
+/* body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: violet;
+} */
+
+/* 3rd Way */
+
+/* body {
+  position: relative;
+  height: 100vh;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  transform: translate(-50%, -50%);
+} */
+
+/* 4th Way */
+
+/* body {
+  display: flex;
+  height: 100vh;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  align-self: center;
+  margin: auto;
+  background-color: red;
+} */
+
+/* 5th Way */
+
+/* body {
+  width: 50%;
+  height: 100vh;
+}
+.child {
+  width: 200px;
+  height: 100px;
+  margin-top: calc(100% / 2);
+  float: inline-end;
+  background-color: aqua;
+  transform: translate(50%, -50%);
+} */
+
+/* 6th Way */
+
+/* body {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: chocolate;
+} */
